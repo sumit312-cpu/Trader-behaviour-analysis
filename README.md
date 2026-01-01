@@ -1,61 +1,28 @@
-# Trader-behaviour-analysis
- Trader Behaviour Analysis with Market Sentiment  
+# Trader Behaviour Analysis
 
-### Project Overview :-
-This project analyzes the relationship between *crypto market sentiment* (Fear–Greed Index) and *trader behaviour based on trade outcomes*.  
-The goal is to understand whether trading performance changes across different sentiment phases such as *Fear, Neutral, Greed, and Extreme Greed*.
+## 📌 Objective
+To analyze how market sentiment impacts trader behavior and performance using Bitcoin sentiment and trader execution data.
 
-The analysis is performed using Python in Jupyter Notebook with data cleaning, merging, grouping, visualization, and behavioural insights.
+## 📂 Datasets
+1) Bitcoin Market Sentiment (Fear/Greed Index)  
+2) Trader execution data (Hyperliquid)
 
----
-
-###  Datasets Used :-
-1️⃣ *Fear–Greed Sentiment Dataset*  
-Contains daily market sentiment values categorized into phases.
-
-2️⃣ *Trades Dataset*  
-Contains individual trade records including timestamp, PnL information, and trade outcomes.
-
----
-
-### 🛠️ Tools & Technologies
+## 🛠 Tools & Libraries
 - Python  
-- Pandas  
-- NumPy  
-- Matplotlib  
 - Jupyter Notebook  
+- pandas, numpy  
+- matplotlib / seaborn  
 
----
+## 📈 Key Analysis
+- Merged sentiment with trader data
+- Explored trends between sentiment and P&L
+- Visualized sentiment vs profits
 
-###  Steps Performed in the Project :-
-1. *Import datasets & preview structure*  
-2. *Data cleaning & timestamp conversion*  
-3. *Generate profit–loss flag (pnl_flag)*  
-4. *Create date column & align trades with sentiment*  
-5. *Group analysis by sentiment & trade outcome*  
-6. *Create days-count table (sentiment duration)*  
-7. *Generate trade performance summary*  
-8. *Visualization of trades vs sentiment*  
-9. *Insights & behavioural observations*  
-10. *Final conclusion*
-11. *Export final merged dataset (CSV)*
+## 📌 Insights
+- Example: During extreme fear markets, traders tend to…
+- Average P&L increases when…
 
----
-
-###  Key Insights :-
-- Profit trades occur across all sentiment phases, but trading activity is *higher during Greed periods*.  
-- Loss trades are present in every phase, meaning *market risk cannot be eliminated*.  
-- Traders tend to show *confidence-driven behaviour in Greed* and cautious participation during Fear.  
-- Sentiment affects trading outcomes, but *discipline and risk-management play a major role*.
-
----
-
-### Final Conclusion :-
-Market sentiment has a measurable influence on trader behaviour, but it is *not the only factor* driving performance.  
-A balanced strategy combining *sentiment awareness, timing, and risk-management* results in more consistent outcomes in volatile crypto markets.
-The analysis reveals:
-✔ Market sentiment strongly influences trader behavior  
-✔ Traders in fear markets showed lower profitability  
-✔ Neutral markets had more consistent returns
-
-This project demonstrates data cleaning, integration, exploratory analysis, and insights reporting.
+## 📁 How to Run
+1) Extract the dataset  
+2) Open notebook  
+3) Run cells sequentially
