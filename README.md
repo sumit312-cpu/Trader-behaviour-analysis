@@ -53,3 +53,9 @@ Contains individual trade records including timestamp, PnL information, and trad
 ### Final Conclusion :-
 Market sentiment has a measurable influence on trader behaviour, but it is *not the only factor* driving performance.  
 A balanced strategy combining *sentiment awareness, timing, and risk-management* results in more consistent outcomes in volatile crypto markets.
+The analysis reveals:
+✔ Market sentiment strongly influences trader behavior  
+✔ Traders in fear markets showed lower profitability  
+✔ Neutral markets had more consistent returns
+
+This project demonstrates data cleaning, integration, exploratory analysis, and insights reporting.
