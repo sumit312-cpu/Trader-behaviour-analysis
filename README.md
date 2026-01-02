@@ -40,8 +40,10 @@ behavioural patterns such as *cautious trading during fear* vs *risk-seeking beh
 
 -  *Fear Phases* → Traders show *defensive behaviour* and cautious trade execution  
 -  *Greed Phases* → Higher trading activity & *greater risk-taking tendency*  
--  *Extreme Greed* → Signs of *over-confidence*, probability of losses increases  
+-  *Extreme Greed* → Signs of *over-confidence*, probability of losses increases 
 -  *Most trades still close in profit*, but loss trades remain & require disciplined risk-management
+-   Traders in extreme Greed phases showed increased trade count but lower average P&L ratio.
+- During Fear phases, profitable trades were fewer but more disciplined (lower variance)
 
 These findings highlight how *market psychology influences trading behaviour and outcomes*.
 
